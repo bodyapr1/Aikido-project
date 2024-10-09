@@ -1,0 +1,84 @@
+
+body{
+    font-family: 'Comfortaa';
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    }
+    
+    a {
+        height: 32px;
+    
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 40;
+        font-size: 25px;
+        line-height: 18px;
+        color: #000000;
+    }
+    
+    /* <!-- Перший блок --> */
+    
+    .div-1{
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        background-image: url(./image/training/img_trainig_div.jpg);
+        padding: 10px;
+        border-radius: 0px;
+    }
+
+    .div-1-text {
+        text-align: center;
+        padding: 20px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 30px;
+        margin: auto;
+        color: #e5e5e5;
+        border-radius: 15px; 
+        background-color: rgba(0, 0, 0, 0.677);
+    }
+    
+    .text-line {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    
+    .main-title {
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 61px;
+        color: #000000;
+    }
+    
+    .main-title:nth-child(1) {
+        padding-top: 8%;
+    }
+    
+
+    /* <!-- Третійблок --> */
+    
+    hr {
+        border: none; 
+        background-color: rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+        height: 2px; /* Товщина лінії */
+    }
+    
+    .div-3-title{
+            /* Information */
+            position: relative;
+            width: 500px;
+            left: 300px;
+            top: -10px;
+        
+            font-family: 'ItalicT';
+            font-style: italic;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 61px;
+            color: #000000;
+    }

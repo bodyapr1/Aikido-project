@@ -1,0 +1,126 @@
+
+body{
+    font-family: 'Comfortaa';
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    }
+    
+    a {
+        height: 32px;
+    
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 40;
+        font-size: 25px;
+        line-height: 18px;
+        color: #000000;
+    }
+    
+    /* <!-- Перший блок --> */
+
+    .div-1{
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 0px;
+        background-color: #fbf1dc;
+    }
+    
+    .text-line {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    
+    .main-title {
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 50px;
+        color: #000000;
+    }
+    
+    .main-title:nth-child(1) {
+        padding-top: 8%;
+        width: 500px;
+        height: 50px;
+    }
+
+    .main-title:nth-child(2) {
+        width: 750px;
+        padding-top: 8%;
+    }
+    
+    /* <!-- Другий блок --> */
+    
+    .div-2{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #fbf1dc;
+        padding: 10px;
+        border-radius: 0px;
+    }
+    
+    .div-2-title-container{ 
+        position: relative;
+        width: 300px;
+        left: 15px;
+        bottom: 15px;
+        padding: 10px;
+
+        background-color: #efefef;
+        z-index: 10;
+    }
+
+    .div-2-title {
+        /* font-weight: 500; */
+        font-size: 18px;
+        line-height: 25px;
+        color: #000000;
+    }
+    
+    .div-2-text {
+        /* text-align: center; */
+        /* font-weight: 400; */
+        font-size: 15px;
+        line-height: 30px;
+        color: #000000;
+    }
+
+    .div-2-block{
+        background-color: white;
+        width: 80%;
+        height: 80px;
+    }
+
+    .image{
+        width: 300px;
+        height: 364px;
+        background-size: cover;
+    }
+
+    
+    /* <!-- Третійблок --> */
+    
+    hr {
+        border: none; 
+        background-color: rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+        height: 2px; /* Товщина лінії */
+    }
+    
+    .div-3-title{
+            /* Information */
+            position: relative;
+            width: 500px;
+            left: 300px;
+            top: -10px;
+        
+            font-family: 'ItalicT';
+            font-style: italic;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 61px;
+            color: #000000;
+    }
